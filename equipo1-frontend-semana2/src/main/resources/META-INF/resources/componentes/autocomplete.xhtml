@@ -1,0 +1,19 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:p="http://primefaces.org/ui">
+     <h:head>
+     </h:head>
+     <h:body>
+     	<h:form>
+        	<p:autoComplete multiple="true" completeMethod="#{autoCompleteController.completar}" minQueryLength="3" queryDelay="1000"/>
+        	<br/>
+        	<p:editor/>
+        	<p:signature widgetVar="firma" style="width:400px; height:200px"/>
+        	<br/>
+        	<button type="button" onClick="PF('firma').clear()">Borrar</button>
+        	<br/>
+        	<p:keyboard></p:keyboard>
+        </h:form>
+     </h:body>
+</html>

@@ -1,0 +1,14 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:p="http://primefaces.org/ui">
+     <h:head>
+     </h:head>
+     <h:body>
+     	<p:panelGrid columns="2">     
+<!--      el dígito 9 hace que sólo se puedan introducir números, a permite letras y * es alfanumérico -->
+     	WhatsApp <p:inputMask mask="99-99-99-99-99"/>
+     	Serie <p:inputMask mask="aaa-999-a*"/>
+     	</p:panelGrid>
+     </h:body>
+</html>

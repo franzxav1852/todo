@@ -1,0 +1,65 @@
+mvn archetype:generate -DgroupId=com.everis -DartifactId=2-poo -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+
+
+https://pastebin.com/iEa7U93T
+CRUD (bancos y y clientes)
+Clientes -> DAO
+Bancos-> controlador y la vista
+Academia-everis -Tarea2-FRANCISCOPEREZ
+SOLO ENVIAR POM Y SRC
+PONER UN BANCO FIJO A EN INTO 
+
+
+mvn compile 
+
+cd +"ruta de la carpeta"
+
+mvn package
+mvn compile 
+mvn clean para eliminar la carpeta target del sistema 
+mvn install para instalar el proyectp
+
+pruebas unitarias: 
+
+Hangouts
+
+https://bit.ly/2maQpeB
+
+
+jenkins (GIT --> GitHup)
+Continuos Integration (C.I.)
+
+para desrrollo son buenos 
+Tomcat  ---> Jetty
+
+Websphere, Weblogic, JBoss, Wildfly
+
+Oracle, SQL Server, MySQL, Postgrade, Informix, DB2
+(SELECT, JOINS, INSERT, UPDATE, DELETE)
+
+
+
+PL\SQL ---> estudiarle (Oracle)
+Stored Procedures (Transact SQL) SQL Server
+MySQL ---> SQL Server
+ta
+
+Microservicios ---> MongoDB (JSON), Couch DB, Firebase
+Node.js (rápida menos recursos)
+
+
+FRAMEWOKS
+
+
+
+
+
+puerto: 3306
+tgconsulting.online
+usuario: academiaeveris
+pwd: academiaeveris
+
+
+
+

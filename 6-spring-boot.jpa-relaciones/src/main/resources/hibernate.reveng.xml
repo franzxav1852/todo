@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-catalog="cintegracion" match-name="categoria"/>
+  <table-filter match-catalog="cintegracion" match-name="cliente"/>
+  <table-filter match-catalog="cintegracion" match-name="compra"/>
+  <table-filter match-catalog="cintegracion" match-name="compraproducto"/>
+  <table-filter match-catalog="cintegracion" match-name="log"/>
+  <table-filter match-catalog="cintegracion" match-name="login"/>
+  <table-filter match-catalog="cintegracion" match-name="perfil"/>
+  <table-filter match-catalog="cintegracion" match-name="producto"/>
+  <table-filter match-catalog="cintegracion" match-name="usuario"/>
+</hibernate-reverse-engineering>
